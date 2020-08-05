@@ -117,6 +117,9 @@ q {
 	quotes: none;
 }
 
+
+
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -273,6 +276,7 @@ i {
 
 p {
 	margin: 0 0 2em 0;
+	text-align: justify !important;
 }
 
 h1,
