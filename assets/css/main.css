@@ -2652,27 +2652,27 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-	color: #5e42a6;
+	color: #218c74;
 }
 
 .wrapper.style1-alt .icon.major:before {
-	color: #493382;
+	color: #30c0a1;
 }
 
 .wrapper.style2 .icon.major:before {
-	color: #5052b5;
+	color: #236154;
 }
 
 .wrapper.style2-alt .icon.major:before {
-	color: #3e4094;
+	color: #2da88d;
 }
 
 .wrapper.style3 .icon.major:before {
-	color: #b74e91;
+	color: #059172;
 }
 
 .wrapper.style3-alt .icon.major:before {
-	color: #953d75;
+	color: #085e4b;
 }
 
 /* Image */
