@@ -118,7 +118,9 @@ q {
 }
 
 
-
+p {
+	color: #101312;
+}
 
 blockquote:before,
 blockquote:after,
@@ -186,7 +188,7 @@ html {
 }
 
 body {
-	background: #312450;
+	background: #153a32;
 }
 
 body.is-preload *,
@@ -209,8 +211,8 @@ input,
 select,
 textarea {
 	color: rgba(255, 255, 255, 0.55);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16.5pt;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18.5pt;
 	font-weight: normal;
 	line-height: 1.75;
 }
@@ -312,10 +314,10 @@ h1.major {
 }
 
 h1.major:after {
-	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -moz-linear-gradient(to right, black, #39e436);
+	background-image: -webkit-linear-gradient(to right, black, #39e436);
+	background-image: -ms-linear-gradient(to right, black, #39e436);
+	background-image: linear-gradient(to right, black, #39e436);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
@@ -3361,27 +3363,27 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-	background-color: #5e42a6;
+	background-color: #218c74;
 }
 
 .wrapper.style1-alt {
-	background-color: #493382;
+	background-color: #133b33;
 }
 
 .wrapper.style2 {
-	background-color: #5052b5;
+	background-color: #2e7b56;
 }
 
 .wrapper.style2-alt {
-	background-color: #3e4094;
+	background-color: #0d3a30;
 }
 
 .wrapper.style3 {
-	background-color: #b74e91;
+	background-color: #3d7746;
 }
 
 .wrapper.style3-alt {
-	background-color: #953d75;
+	background-color: #218c74;
 }
 
 .wrapper.fullscreen {
@@ -3491,7 +3493,7 @@ body.is-preload .wrapper.fade>.inner {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	background-color: #5e42a6;
+	background-color: #218c74;
 	cursor: default;
 	padding: 1.75em 2em;
 }
@@ -3645,7 +3647,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
 	padding: 2.5em 2.5em 0.5em 2.5em;
-	background: #312450;
+	background: #153a32;
 	cursor: default;
 	height: 100vh;
 	left: 0;
@@ -3883,14 +3885,14 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:before {
-	background: #3c2c62;
+	background: black;
 }
 
 #sidebar nav a:after {
-	background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-	background-image: linear-gradient(to right, #5e42a6, #b74e91);
+	background-image: -moz-linear-gradient(to right, black, #70de14);
+	background-image: -webkit-linear-gradient(to right, black, #70de14);
+	background-image: -ms-linear-gradient(to right, black, #70de14);
+	background-image: linear-gradient(to right, black, #70de14);
 	-moz-transition: max-width 0.2s ease;
 	-webkit-transition: max-width 0.2s ease;
 	-ms-transition: max-width 0.2s ease;
