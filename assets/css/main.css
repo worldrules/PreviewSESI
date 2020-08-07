@@ -117,9 +117,15 @@ q {
 	quotes: none;
 }
 
-
+/* texto */
 p {
-	color: #101312;
+	color: rgb(231, 219, 219);
+}
+
+/* image */
+img {
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black;
 }
 
 blockquote:before,
